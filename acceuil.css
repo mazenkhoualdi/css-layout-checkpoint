@@ -1,0 +1,165 @@
+* {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0px;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  list-style-type: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #ababab;
+}
+
+nav ul li a:hover {
+  color: #00b39b;
+}
+.title {
+  display: flex;
+}
+#f1 {
+  color: #00b39b;
+  margin-right: -13px;
+}
+#f2 {
+  color: #ababab;
+}
+#abt {
+  color: #00b39b;
+}
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
+}
+#intro {
+  color: #00b39b;
+  text-align: center;
+}
+.parag {
+  display: flex;
+}
+p {
+  font-family: Roboto, Arial, sans-serif;
+  color: #ababab;
+  padding: 40px;
+}
+.choix {
+  display: flex;
+}
+.one {
+  background-color: #00b39b;
+  width: 345px;
+  height: 480px;
+  padding: 20px;
+  margin: 40px;
+  font-weight: 400;
+  font-size: x-large;
+  font-family: Roboto, Arial, sans-serif;
+  border-radius: 10px;
+  color: white;
+}
+.two {
+  background-color: rgb(21, 127, 233);
+  width: 345px;
+  height: 480px;
+  padding: 30px;
+  margin: 40px;
+  font-size: x-large;
+  font-weight: 400;
+  font-family: Roboto, Arial, sans-serif;
+  border-radius: 10px;
+  color: white;
+}
+.three {
+  background-color: rgb(116, 116, 116);
+  width: 345px;
+  height: 480px;
+  padding: 30px;
+  margin: 40px;
+  font-weight: 400;
+  font-size: x-large;
+  font-family: Roboto, Arial, sans-serif;
+  border-radius: 10px;
+  color: white;
+}
+.pr {
+  color: white;
+}
+.sponsor {
+  display: flex;
+  text-align: center;
+}
+.def {
+  font-family: Work, Arial, sans-serif;
+  color: #00b39b;
+}
+.spns ul li {
+  list-style-type: none;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 150px;
+  font-size: x-large;
+}
+.spns ul li a {
+  text-decoration: none;
+  color: #ababab;
+  padding-left: 20px;
+}
+.spns ul li a:hover {
+  color: #00b39b;
+}
+.mini-titre{
+  text-align: center;
+  color: #00b39b;
+}
+.decription{
+  text-align: center;
+  color: #ababab;
+  font-family: 'Times New Roman', Times, serif;
+}
+.going{
+  text-decoration: none;
+  color: #ababab;
+}
+.butt{
+  color: aliceblue;
+  background-color: blue;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+.country img{
+  width: 65%;
+}
+.country{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+.card{
+  margin-bottom: 20px;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+footer h2{
+  text-align: center;
+}
+.ft{
+  color: white;
+  background-color: rgb(24, 132, 215);
+  width: 300px;
+}
